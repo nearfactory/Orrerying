@@ -103,7 +103,7 @@ header{
   padding: 1rem 0;
 
   background-color: var(--accent1alpha);
-  backdrop-filter: blur(1rem);
+  backdrop-filter: blur(0.5rem);
 
   overflow: hidden;
 }
@@ -155,6 +155,34 @@ header>nav>span{
   letter-spacing: 0;
   
   cursor: pointer;
+}
+
+/* ======================================== */
+
+#solar-system{
+  position: relative;
+
+  display: block;
+  width: 100%;
+  height: 100dvh;
+
+  background-color: var(--text1);
+}
+
+.planet{
+  position: absolute;
+
+  display: block;
+  
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--accent2);
+  border-radius: 50%;
+}
+
+.planet:hover{
+  background-color: var(--background1);
 }
 
 /* ======================================== */
